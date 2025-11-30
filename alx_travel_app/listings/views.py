@@ -1,4 +1,3 @@
-from django.http import JsonResponse
+from django.shortcuts import render
 
-def index(request):
-    return JsonResponse({"message": "Welcome to ALX Travel Listings!"})
+# Create your views here.
